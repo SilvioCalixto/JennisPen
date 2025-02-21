@@ -34,11 +34,11 @@ p {
   margin: 15px 0 20px 0;
 }
 
-.select-p1 {
+.section-p1 {
   padding: 40px 80px;
 }
 
-.select-m1 {
+.section-m1 {
   margin: 40px 0;
 }
 
@@ -73,7 +73,7 @@ body {
 
 #menu li a {
   text-decoration: none;
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 600;
   color: #1a1a1a;
   transition: 0.3s ease;
@@ -101,9 +101,9 @@ body {
   background-color: #e3e6f3;
   background-image: url("img/jenni.png");
   height: 90vh;
-  width: 129vh;
+  width: auto;
   background-position: top 25% right 15%;
-  background-size: 30%;
+  background-size: 31.8%;
   background-repeat: no-repeat;
   padding: 0 80px;
   display: flex;
@@ -129,6 +129,34 @@ body {
   padding: 14px 80px 14px 65px;
   background-repeat: no-repeat;
   cursor: pointer;
+  font-weight: 700px;
+  font-size: 15px;
+}
 
+#recursos .rec-box {
+  width: 180px;
+  text-align:center;
+  padding: 25px 15px;
+  box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+  border: 1px solid #cce7d0;
+  border-radius: 4px;
+  margin: 15px 0;
+}
 
+#recursos .rec-box:hover {
+  box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+}
+
+#recursos rec-box img{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#recursos .rec-box h6 {
+  display: inline-block;
+  padding: 9px 8px 6px 8px;
+  line-height: 1;
+  border-radius: 4px;
+  color: #088178;
+  background-color: #fddde4;
 }
